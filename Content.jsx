@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
+import SearchBar from './src/components/SearchBar.jsx';
 
-class Content extends React.Component {
+class Content extends Component {
    render() {
       return (
          <div>
-            <h2>Content</h2>
-            <p>The content text!!!</p>
+            <SearchBar />
          </div>
       );
    }
