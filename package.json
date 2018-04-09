@@ -23,7 +23,7 @@
     "react-redux": "^4.4.5",
     "redux": "^3.5.2",
     "webpack": "^1.13.1",
-    "webpack-dev-server": "^1.14.1",
+    "webpack-dev-server": "^3.1.2",
     "youtube-api-search": "0.0.5"
   }
 }
