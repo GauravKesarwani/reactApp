@@ -4,7 +4,9 @@
   "description": "'Sample Reactjs Application'",
   "main": "bundle.js",
   "scripts": {
-    "start": "webpack-dev-server --hot"
+    "start": "webpack-dev-server --hot",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "reactjs",
@@ -24,6 +26,8 @@
     "redux": "^3.5.2",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1",
-    "youtube-api-search": "0.0.5"
-  }
+    "youtube-api-search": "0.0.5",
+    "snyk": "^1.192.3"
+  },
+  "snyk": true
 }
